@@ -1,0 +1,128 @@
+@media only screen and (max-width:1400px) {
+    #navbarNavDropdown{
+        margin-left: 0 !important;
+
+    }
+   
+}
+@media only screen and (max-width:1000px){
+    .a.nav-link.active{
+        text-align: center !important;
+    }
+
+    li.nav-item{
+        text-align: center !important;
+        padding: 5px 0px;
+    }
+    .hero h2 {
+        font-size: 28px;
+       
+    }
+    .hero .btn-get-started{
+        margin-right: 20px !important;
+    }
+
+    button.btn.btn-outline-primary{
+        width: 160px;
+        margin: auto;
+        padding: 12px;
+    }
+    #hero .d-flex{
+        margin: auto;
+
+    } 
+    .clients img {
+        max-width: 35%;
+    }
+    .about .content .btn-learn-more{
+        margin: auto;
+    }
+}
+@media only screen and (max-width:800px){
+    
+    .hero p{
+        font-size: 15px;
+    }
+    .about p{
+        font-size: 15px;
+    }
+    .about .content ul i {
+      
+        left: -25px;
+    }
+    .about .content ul li {
+        padding-left: 9px;
+        font-size: 15px;
+    }
+    .faq .content h3 {
+       
+        font-size: 28px;
+       
+    }
+}
+
+@media screen and (max-width:600px){
+    button.accordion-button.collapsed{
+        font-size: 15px;
+    }
+    .skills .content h3 {
+       
+        font-size: 22px;
+    }
+    #services p{
+        font-size: 14px;
+    }
+    #cta p{
+        font-size: 13px;
+    }
+    #portfolio p{
+        font-size: 13px;
+    }
+    .nav-tabs .nav-link {
+       
+        font-size: 12px;
+    }
+    #team p{
+        font-size: 13px;
+    }
+    #pricing p{
+        font-size: 13px;
+    }
+    #faq p{
+        font-size: 13px;
+    }
+    #contact p{
+        font-size: 13px;
+    }
+  
+    
+}
+
+@media screen and (max-width:500px){
+    .team .member .pic {
+        width: 100px;
+    }
+    .member-info p{
+        font-size: 10px !important;
+    }
+    .member-info h4{
+        font-size: 13px !important;
+    }
+    .team .member span {
+        font-size: 10px;
+    }
+    .team .member .social a {
+        font-size: 13px;
+    }
+    .team .member .social a {
+        height: 25px;
+        width:25px;
+    }
+    .pricing h4 {
+        font-size: 30px;
+    }
+    .pricing h4 sup {
+        font-size: 18px;
+    }
+
+}
