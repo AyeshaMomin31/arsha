@@ -41,7 +41,7 @@
 @media only screen and (max-width:800px){
     
     .hero p{
-        font-size: 15px;
+        font-size: 14px;
     }
     .about p{
         font-size: 15px;
@@ -58,6 +58,24 @@
        
         font-size: 28px;
        
+    }
+    #footer{
+        text-align:center;
+    }
+    
+    .faq .faq-list {
+        padding: 0px 50px;
+    }
+    .faq .faq-list a {
+        line-height: 20px;
+        font-size: 18px;
+    }
+    .faq .faq-list a.collapsed {
+        font-size: 18px;
+    }
+    .faq .faq-list p {
+       font-size: 12px;
+        padding: 10px 0 0 0;
     }
 }
 
@@ -89,13 +107,27 @@
         font-size: 13px;
     }
     #faq p{
-        font-size: 13px;
+        font-size: 10px;
     }
     #contact p{
         font-size: 13px;
     }
-  
-    
+   
+    .faq .faq-list {
+        padding: 0px 0px !important;
+    }
+
+    .faq .faq-list a {
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .faq .faq-list a.collapsed {
+        font-size: 14px;
+    }
+    .faq .faq-list p {
+        font-size: 12px;
+         padding: 10px 0 0 0;
+     }
 }
 
 @media screen and (max-width:500px){
@@ -125,4 +157,40 @@
         font-size: 18px;
     }
 
+    .hero h2{
+        text-align: start;
+      }
+      .hero p{
+        text-align: start;
+      }
+      #hero .d-flex{
+        margin: auto;
+    } 
+    #hero .d-flex{
+     display: block !important;
+
+    } 
+    .hero .btn-get-started {
+        margin-bottom: 23px !important;
+    }
+    .hero .btn-watch-video i {
+        margin-right: 20px;
+}
+
+    #footer .footer-bottom {
+        display:grid;
+        text-align: center;
+    }
+    #footer .copyright {
+        padding-bottom: 5px;
+    }
+    span.log{
+        font-size: 16px;
+    margin-right: 26px;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    
 }
